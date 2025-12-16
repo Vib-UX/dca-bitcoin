@@ -337,6 +337,12 @@ function DCAScreen() {
               </strong>{" "}
               = <strong>{btcAmount.toFixed(8)} BTC</strong>
             </p>
+            <p className="conversion-sats">
+              ={" "}
+              <strong>
+                {Math.floor(btcAmount * 100000000).toLocaleString()} sats
+              </strong>
+            </p>
             <p className="conversion-rate">
               Using 24h BTC price: <strong>${conversionRate.toFixed(2)}</strong>
             </p>

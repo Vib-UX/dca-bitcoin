@@ -146,23 +146,41 @@
 }
 
 .conversion {
-  background: #f0f4ff;
-  padding: 1rem;
-  border-radius: 8px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 1.5rem;
+  border-radius: 12px;
   margin-bottom: 1.5rem;
   text-align: center;
+  color: white;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
 }
 
 .conversion p {
-  margin: 0;
-  color: #333;
+  margin: 8px 0;
+  color: white;
   font-size: 1.1rem;
 }
 
+.conversion strong {
+  font-weight: 600;
+}
+
+.conversion-sats {
+  font-size: 1.8rem !important;
+  margin: 12px 0 !important;
+  font-weight: 700 !important;
+}
+
+.conversion-sats strong {
+  color: #ffd700 !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.5px;
+}
+
 .conversion-rate {
-  margin-top: 0.5rem !important;
+  margin-top: 12px !important;
   font-size: 0.9rem !important;
-  color: #666 !important;
+  opacity: 0.9;
 }
 
 .button {
