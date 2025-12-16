@@ -1,3 +1,6 @@
 [submodule "noble-post-quantum"]
 	path = noble-post-quantum
 	url = https://github.com/paulmillr/noble-post-quantum.git
+[submodule "silentiumd"]
+	path = silentiumd
+	url = https://github.com/louisinger/silentiumd.git
