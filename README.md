@@ -1,6 +1,6 @@
-# DCA Bitcoin on Nostr
+# DCA Bitcoin
 
-A decentralized Dollar-Cost Averaging (DCA) application for Bitcoin, built on Nostr with Lightning Network payments. Track your Bitcoin purchases, manage stable channels, and maintain privacy with Silent Payments.
+QuietGain DCA is a privacy‑first Bitcoin DCA app: stack sats via Nostr with BIP‑352 Silent Payments, use Lightning stable channels to keep your fiat exposure steady when BTC pumps, and settle long-term wealth on P2QRH addresses generated with ML-DSA (CRYSTALS-Dilithium) to remain secure against quantum attacks.
 
 ## 🌟 Features
 
