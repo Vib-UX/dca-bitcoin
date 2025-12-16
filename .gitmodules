@@ -1,0 +1,3 @@
+[submodule "noble-post-quantum"]
+	path = noble-post-quantum
+	url = https://github.com/paulmillr/noble-post-quantum.git
