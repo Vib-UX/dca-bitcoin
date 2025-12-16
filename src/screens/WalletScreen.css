@@ -1,0 +1,185 @@
+.wallet-screen {
+  width: 100%;
+  max-width: 600px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .card {
+    border-radius: 16px;
+    padding: 2rem;
+  }
+
+  .card h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+}
+
+.balance-section {
+  margin-bottom: 2rem;
+}
+
+.balance-main {
+  margin-bottom: 1.5rem;
+}
+
+.balance-label {
+  font-size: 0.875rem;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.balance-amount {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.balance-amount.btc {
+  color: #f7931a;
+}
+
+.balance-amount.usd {
+  color: #28a745;
+  font-size: 1.5rem;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .balance-amount {
+    font-size: 2.5rem;
+  }
+
+  .balance-amount.usd {
+    font-size: 2rem;
+  }
+}
+
+.price-info {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.price-item:last-child {
+  margin-bottom: 0;
+}
+
+.price-value {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+}
+
+.price-change {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .price-value {
+    font-size: 1.25rem;
+  }
+
+  .price-change {
+    font-size: 1.25rem;
+  }
+}
+
+.price-change.positive {
+  color: #28a745;
+}
+
+.price-change.negative {
+  color: #dc3545;
+}
+
+.notification {
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  animation: slideIn 0.3s ease;
+}
+
+.notification.positive {
+  background: #d4edda;
+  border: 2px solid #28a745;
+}
+
+.notification.negative {
+  background: #f8d7da;
+  border: 2px solid #dc3545;
+}
+
+.notification h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.notification.positive h2 {
+  color: #155724;
+}
+
+.notification.negative h2 {
+  color: #721c24;
+}
+
+.notification p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.notification.positive p {
+  color: #155724;
+}
+
+.notification.negative p {
+  color: #721c24;
+}
+
+.button-secondary {
+  background: white;
+  color: #333;
+  border: 2px solid #667eea;
+}
+
+.button-secondary:hover {
+  background: #667eea;
+  color: white;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
