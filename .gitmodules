@@ -4,3 +4,6 @@
 [submodule "silentiumd"]
 	path = silentiumd
 	url = https://github.com/louisinger/silentiumd.git
+[submodule "stable-channels"]
+	path = stable-channels
+	url = https://github.com/toneloc/stable-channels.git
